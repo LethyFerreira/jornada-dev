@@ -1,0 +1,154 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.resumo {
+    min-height: 100vh;
+    width: 90%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.lado-esquerdo {
+    grid-column: span 2;
+    height: 100%;
+    background-color: #00204A;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-left: 68px;
+    margin-top: 20px;
+}
+
+.conteudo .nome {
+    color: #D6DBDF;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+}
+
+.conteudo .profissao {
+    color: #fdb44b;
+    height: 46px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.conteudo .titulo {
+    color: #fdb44b;
+    height: 46px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-align: center;
+}
+
+.conteudo .dados {
+    line-height: 21px;
+    color: rgba(214, 219, 223, 0.686);
+    padding: .4rem 0;
+}
+
+.skills .titulo2 {
+    color: #fdb44b;
+    height: 46px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.skills .dados2 {
+    line-height: 21px;
+    color: rgba(214, 219, 223, 0.686);
+    padding: .4rem 0;
+}
+
+.lado-direito {
+    grid-column: span 5;
+    height: 100%;
+    background-color: #4B6982;
+}
+
+.conteudo2 .about-me {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #70C6C7;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.conteudo2 .descricao {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 32px;
+    color: #F1F8FD;
+    padding-left: 40px;
+}
+
+.experiencias .experiencia,
+.formacao .educacao {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #70C6C7;
+    text-align: center;
+    padding: 41px;
+}
+
+.empresa01,
+.faculdade {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.empresa02 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 25px;
+}
+
+.empresa01 .nome-empresa01,
+.cargo-empresa01,
+.empresa02 .nome-empresa02,
+.cargo-empresa02,
+.faculdade .nome-faculdade,
+.curso {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FDB44B;
+
+}
+
+.empresa01 .data-empresa01,
+.descrição-01,
+.empresa02 .data-empresa02,
+.descrição-02,
+.faculdade .data-curso,
+.descrição-curso {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 32px;
+    color: #F1F8FD;
+}
