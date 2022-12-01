@@ -1,2 +1,3 @@
-# jornada-dev
-## criando um currículo com o designe do Figma.
+# Curriculo
+
+### Criando um currículo utilizando design do Figma para a imersão da EBAC.
