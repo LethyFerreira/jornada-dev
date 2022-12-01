@@ -56,6 +56,8 @@
     line-height: 21px;
     color: rgba(214, 219, 223, 0.686);
     padding: .4rem 0;
+    font-family: 'Roboto';
+    font-weight: 300;
 }
 
 .skills .titulo2 {
@@ -71,6 +73,8 @@
     line-height: 21px;
     color: rgba(214, 219, 223, 0.686);
     padding: .4rem 0;
+    font-family: 'Roboto';
+    font-weight: 300;
 }
 
 .lado-direito {
@@ -100,9 +104,10 @@
 }
 
 .experiencias .experiencia,
-.formacao .educacao {
+.formacao .educacao,
+.certificado .certificados {
     font-family: 'Roboto';
-    font-weight: 300;
+    font-weight: 400;
     font-size: 25px;
     line-height: 47px;
     text-transform: uppercase;
@@ -112,12 +117,15 @@
 }
 
 .empresa01,
-.faculdade {
+.faculdade,
+.escola01,
+.escola02 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.empresa02 {
+.empresa02,
+.escola02 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 25px;
@@ -128,9 +136,13 @@
 .empresa02 .nome-empresa02,
 .cargo-empresa02,
 .faculdade .nome-faculdade,
-.curso {
+.curso,
+.escola01 .nome-escola01,
+.escola02 .nome-escola02,
+.escola01 .curso-certificado01,
+.escola02 .curso-certificado02 {
     font-family: 'Roboto';
-    font-weight: 300;
+    font-weight: 400;
     font-size: 19px;
     line-height: 29px;
     letter-spacing: 1px;
@@ -144,7 +156,11 @@
 .empresa02 .data-empresa02,
 .descrição-02,
 .faculdade .data-curso,
-.descrição-curso {
+.descrição-curso,
+.escola01 .data-curso01,
+.escola02 .data-curso02,
+.escola01 .descrição-certificado01,
+.escola02 .descrição-certificado02 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
